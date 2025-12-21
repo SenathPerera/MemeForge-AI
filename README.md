@@ -59,11 +59,12 @@ pip install -r requirements.txt
 ```
 **3. Launch backend**
 ```
-<backend command>
+activate .venv - & <Your folder path to Meme-Generator-2\.venv\Scripts\Activate.ps1>
+python -m uvicorn src.main:app --reload
 ```
 **4. Launch frontend**
 ```
-<frontend command>
+npm start
 ```
 
 # Authors
